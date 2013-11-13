@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="analytics.js"></script>
+    <script src="analytics.me.js"></script>
+  </head>
+  <body>
+    <h1>Profile</h1>
+    <a id="subscribe-link" href="subscribe.html">Inscription</a>
+    <script>
+      var link = document.getElementById('subscribe-link');
+      analytics.trackLink(link, 'subscribe', { 
+	plan : 'Enterprise'
+      });
+    </script>
+  </body>
+</html>
+
