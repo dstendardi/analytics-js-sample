@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1 I am on page B
+  a(href="/c") go to c
+  a(href="/") return to a
+
+  script.
+    analytics.page("b");
